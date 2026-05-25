@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- আইকনের জন্য FontAwesome লিংক -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+
+    <!-- নেভিগেশন বার -->
+    <nav>
+        <div class="logo">Milan<span>Portfolio</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- হিরো সেকশন -->
+   <!-- ছবিসহ নতুন হিরো সেকশন -->
+<header id="home" class="hero-section">
+    <div class="hero-container-box">
+        <!-- বাম পাশের টেক্সট কন্টেন্ট -->
+        <div class="hero-content">
+            <h3>Hey, I am</h3>
+            <h1>Milan Majee</h1>
+            <h2>A Passionate <span class="text-gradient">Full Stack Developer</span></h2>
+            <ul>
+            <li>🌐 Specialize in clean, responsive UI with HTML, CSS, JavaScript, Bootstrap, ReactJS.</li>
+            <li>⚙️ Backend expertise in Node.js, Express.js with MongoDB and SQL.</li>
+            <li>🚀 Hands-on experience with RESTful APIs and full-stack app deployment.</li>
+            </ul>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="mailto:your-email@gmail.com" class="btn btn-outline"><i class="fas fa-envelope"></i> Email Me</a>
+            </div>
+        </div>
+        
+        <!-- ডান পাশের ছবি (my-photo.jpg এর জায়গায় আপনার ছবির নাম দিন) -->
+        <div class="hero-image">
+            <div class="img-box">
+                <img src="./photos/MILANjeca.jpg" alt="Your Name">
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <!-- অ্যাবাউট সেকশন -->
+    <section id="about" class="about-section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <p>Aspiring Full-Stack MERN Developer with practical experience in designing and developing real-world web applications, including grocery delivery platforms and portfolio websites. Proficient in React.js, Node.js, Express.js, MongoDB, JavaScript, HTML, CSS, and Git. Strong problem-solving abilities with a passion for writing clean, efficient, and maintainable code..</p>
+        </div>
+    </section>
+
+    <!-- স্কিল সেকশন -->
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">My Tech Stack</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fab fa-html5"></i> <span>HTML5</span></div>
+            <div class="skill-card"><i class="fab fa-css3-alt"></i> <span>CSS3</span></div>
+            <div class="skill-card"><i class="fab fa-js"></i> <span>JavaScript</span></div>
+            <div class="skill-card"><i class="fab fa-react"></i> <span>React.js</span></div>
+            <div class="skill-card"><i class="fab fa-react"></i> <span>Bootstrap</span></div>
+            <div class="skill-card"><i class="fab fa-react"></i> <span>Tailwind</span></div>
+            <div class="skill-card"><i class="fab fa-node-js"></i> <span>Node.js</span></div>
+            <div class="skill-card"><i class="fab fa-react"></i> <span>Express.js</span></div>
+            <div class="skill-card"><i class="fab fa-react"></i> <span>SQL</span></div>
+            <div class="skill-card"><i class="fas fa-database"></i> <span>MongoDB</span></div>
+        </div>
+    </section>
+
+    <!-- প্রজেক্ট সেকশন -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Recent Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>TIC-TAC-TOE GAME</h3>
+                    <p>A funny game</p>
+                    <div class="project-tags"><span>HTML</span><span>CSS</span><span>JAVA SCRIPT</span></div>
+                      <a href="https://milanmajee123.github.io/Tic-Tac-Toe/" target="_blank" class="project-link">
+            Live Demo <i class="fas fa-external-link-alt"></i>
+        </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>PROTFOLIO</h3>
+                    <p></p>
+                    <div class="project-tags"><span>HTML</span><span>CSS</span><span>JAVA SCRIPT</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- কন্টাক্ট সেকশন -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="contact-subtitle">Have a project in mind? Feel free to reach out via call or email.</p>
+        
+        <div class="contact-container">
+            <!-- ইমেইল বাটন (your-email@gmail.com পরিবর্তন করে নিজেরটা দিন) -->
+            <a href="mailto:mikulmajee123@gmail.com" class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email Me</h3>
+                <p>mikulmajee123@gmail.com</p>
+            </a>
+
+            <!-- কল বাটন (আপনার আসল ফোন নম্বরটি বসাবেন) -->
+            <a href="tel:+7478390103" class="contact-card">
+                <i class="fas fa-phone"></i>
+                <h3>Call Me</h3>
+                <p>+7478390103</p>
+            </a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
